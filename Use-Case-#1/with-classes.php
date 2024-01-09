@@ -42,14 +42,27 @@ foreach ($basket as $item) {
 
 $totalPriceWithTax = $totalPrice + $wineTax + $fruitTax;
 
+
+echo "Total on Bananas: €{$basket['Bananas']->calculateTotal()}\n";
+echo "<br>";
+echo "Total on Apples: €{$basket['Apples']->calculateTotal()}\n";
+echo "<br>";
+echo "Total on Wines: €{$basket['Wine']->calculateTotal()}\n";
+echo "<br>";
+echo "<br>";
 echo "Total Price: €$totalPrice\n";
 echo "<br>";
+echo "<br>";
+
 echo "Tax on Bananas: €{$basket['Bananas']->calculateTax()}\n";
 echo "<br>";
 echo "Tax on Apples: €{$basket['Apples']->calculateTax()}\n";
 echo "<br>";
 echo "Tax on Total Fruit: €$fruitTax\n (%0.6)\n";
 echo "<br>";
+
 echo "Tax on Wine: €$wineTax\n (%0.21)\n";
 echo "<br>";
+echo "<br>";
 echo "Total Price with Tax: €$totalPriceWithTax\n";
+echo "<br>";
