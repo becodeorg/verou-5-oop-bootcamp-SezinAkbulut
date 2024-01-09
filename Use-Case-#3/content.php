@@ -24,7 +24,8 @@ class Content
 
     public function display(): string
     {
-        return $this->title . ': ' . $this->text;
+       // return $this->title . ': ' . $this->text;
+        return "<h2>{$this->title}</h2><p>{$this->text}</p>";
     }
 }
 

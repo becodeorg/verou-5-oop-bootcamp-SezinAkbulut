@@ -9,10 +9,10 @@ require 'ads.php';
 require 'vacancy.php';
 
 // Create instances of the classes
-$article1 = new Article('Sample Article 1', 'This is the text for Article 1.');
+$article1 = new Article('Sample Article 1', 'This is the text for Article 1.', true);
 $article2 = new Article('Sample Article 2', 'This is the text for Article 2.');
-$ads = new Ads('Sample Ads', 'This is a sample ads text.');
-$vacancy = new Vacancy('Sample Vacancy', 'This is a sample vacancy text.');
+$ads = new Ads('Sample Ads', 'This is the text of ads.');
+$vacancy = new Vacancy('Sample Vacancy', 'This is the text of vacancy.');
 
 // Create an array with the content
 $contentArray = [$article1, $article2, $ads, $vacancy];
