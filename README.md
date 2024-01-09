@@ -1,12 +1,5 @@
 # verou-5-oop-bootcamp-SezinAkbulut
 
-## Learning Objectives
-
-You know the basics about OOP, huh? Good!
-There's a fair chance you'll encounter it many, many times in your career.
-
-Applying OOP is something you can only learn by using it and experimenting with different options.
-We'll tackle some use cases and see how we can go about them to get you familiar with it.
 
 ## The Mission
 
