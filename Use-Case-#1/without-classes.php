@@ -24,7 +24,19 @@ $fruitTax = $applesTax + $bananasTax;
 // Calculate total price with tax
 $totalPriceWithTax = $totalPrice +  $wineTax + $fruitTax;
 
+echo "
+<h3>Basket:</h3>
+<p>
+Banana's (6 pieces, costing €1 each)
+<br>
+Apples (3 pieces, costing €1.5 each)
+<br>
+Bottles of wine (2 bottles, costing €10 each)
+</p>
+<hr>";
+
 echo "Total Price: €$totalPrice\n";
+echo "<br>";
 echo "<br>";
 echo "Tax on Bananas: €$bananasTax\n";
 echo "<br>";
@@ -33,5 +45,6 @@ echo "<br>";
 echo "Tax on Total Fruit: €$fruitTax\n (%0.6)";
 echo "<br>";
 echo "Tax on Wine: €$wineTax\n (%0.21)";
+echo "<br>";
 echo "<br>";
 echo "Total Price with Tax: €$totalPriceWithTax\n";

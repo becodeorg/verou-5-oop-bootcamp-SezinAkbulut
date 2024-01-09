@@ -42,6 +42,16 @@ foreach ($basket as $item) {
 
 $totalPriceWithTax = $totalPrice + $wineTax + $fruitTax;
 
+echo "
+<h3>Basket:</h3>
+<p>
+Banana's (6 pieces, costing €1 each)
+<br>
+Apples (3 pieces, costing €1.5 each)
+<br>
+Bottles of wine (2 bottles, costing €10 each)
+</p>
+<hr>";
 
 echo "Total on Bananas: €{$basket['Bananas']->calculateTotal()}\n";
 echo "<br>";

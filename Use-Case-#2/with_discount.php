@@ -43,11 +43,17 @@ foreach ($basket as $item) {
 }
 
 echo "<br>";
+echo "Bananas with 50% discount: €" . ($basket[0]->price) . "\n";
+echo "<br>";
+echo "Apples with 50% discount: €" . ($basket[1]->price) . "\n";
+echo "<br>";
 echo "Total Price with 50% Fruit Discount: €$totalPriceWithDiscount\n";
+echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "Tax on Fruit: €$fruitTax\n";
 echo "<br>";
 echo "Tax on Wine: €$wineTax\n";
+echo "<br>";
 echo "<br>";
 echo "Total Price with 50% Fruit Discount and Tax: €" . ($totalPriceWithDiscount + $fruitTax + $wineTax) . "\n";
