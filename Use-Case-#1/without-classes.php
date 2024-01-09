@@ -14,7 +14,7 @@ foreach ($basket as $item) {
 }
 
 // Calculate tax
-//$fruitTax = $totalPrice * 0.06;
+
 $applesTax = $basket['Apples']['quantity'] * $basket['Apples']['price'] * 0.6;
 $bananasTax = $basket['Bananas']['quantity'] * $basket['Bananas']['price'] * 0.6;
 $wineTax = $basket['Wine']['quantity'] * $basket['Wine']['price'] * 0.21;
